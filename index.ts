@@ -11,10 +11,11 @@ client.on("ready", () => {
   console.log("Bot is Ready!");
 });
 
-client.on("interactionCreate", async (interaction) => {
-  if (!interaction.isCommand()) return;
-  if (interaction.commandName === "recommend") {
-    await interaction.reply("Avi is my God!");
+client.on("messageCreate", (message) => {
+  if (message.content === "recommend") {
+    message.reply({
+      content: "Avi is God!",
+    });
   }
 });
 
