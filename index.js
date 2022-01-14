@@ -13,10 +13,17 @@ client.on("ready", () => {
     console.log("Bot is Ready!");
 });
 client.on("messageCreate", (message) => {
-    if (message.content === "recommend") {
-        message.reply({
-            content: "Avi is God!",
-        });
+    if (message.content.split(" ")[0] === "recommend") {
+        if (message.content.split(" ")[1] === "python") {
+            message.reply({
+                content: "Check out the following links:\n 1) Official Docs - https://www.python.org/\n 2) Python Tutorial - https://www.youtube.com/watch?v=rfscVS0vtbw\n",
+            });
+        }
+        else {
+            message.reply({
+                content: "Avi is God!",
+            });
+        }
     }
 });
 client.login(process.env.DISCORD_BOT_TOKEN);
