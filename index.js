@@ -24,7 +24,7 @@ client.on("ready", () => {
 client.on("interactionCreate", (interaction) => __awaiter(void 0, void 0, void 0, function* () {
     if (!interaction.isCommand())
         return;
-    if (interaction.commandName.split(" ")[0] === "#recommend") {
+    if (interaction.commandName === "recommend") {
         yield interaction.reply("Avi is my God!");
     }
 }));
