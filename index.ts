@@ -13,7 +13,7 @@ client.on("ready", () => {
 
 client.on("interactionCreate", async (interaction) => {
   if (!interaction.isCommand()) return;
-  if (interaction.commandName.split(" ")[0] === "recommend") {
+  if (interaction.commandName === "recommend") {
     await interaction.reply("Avi is my God!");
   }
 });
