@@ -1,6 +1,9 @@
 {
   "name": "noob-rec-bot",
   "version": "1.0.0",
+  "engines": {
+    "node": "17.3.0"
+  },
   "description": "This is a bot that will recommend you youtube tutorials to assist with your programming journey.",
   "main": "index.js",
   "scripts": {
