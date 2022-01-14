@@ -12,6 +12,12 @@ client.on("ready", () => {
 });
 
 client.on("messageCreate", (message) => {
+  if (message.content === ">help") {
+    message.reply({
+      content:
+        "Noob Rec Bot is a bot that help out beginner programmers in their journey. It recommends youtube videos and other free resources.\n\nTo use a command prefix it with `>recommend`.\n Example usage: `>recommend python` recommends python learning resources\n These are the available commands:\n 1) python\n 2) webdev",
+    });
+  }
   if (message.content.split(" ")[0] === ">recommend") {
     if (message.content.split(" ")[1] === "python") {
       message.reply({
