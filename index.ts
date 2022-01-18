@@ -50,9 +50,17 @@ client.on("messageCreate", (message) => {
           "Check out the following links:\n\n 1) Official Docs - https://nextjs.org/\n 2) Next.js in 100 seconds - Fireship - https://youtu.be/Sklc_fQBmcs\n 3) Next.js for beginners - freecodecamp - https://youtu.be/1WmNXEVia8I\n 4) Lee Robinson's Channel - https://www.youtube.com/user/MaStaleee\n 5) Sonny Sangha's Channel (Highly Recommended, Personal Favorite) - https://www.youtube.com/c/SonnySangha",
       });
     }
-  } else if (message.content === ">test") {
+  } else if (
+    message.content === ">good work" ||
+    message.content === ">good job" ||
+    message.content === ">thanks" ||
+    message.content === ">thank you" ||
+    message.content === ">thanks for the help" ||
+    message.content === ">thank you for the help" ||
+    message.content === ">good"
+  ) {
     message.reply({
-      content: "Test Success!",
+      content: "Thanks! Much Appreciated! Delighted to help you out! 😁",
     });
   }
 });

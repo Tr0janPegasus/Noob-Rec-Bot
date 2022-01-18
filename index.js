@@ -47,9 +47,15 @@ client.on("messageCreate", (message) => {
             });
         }
     }
-    else if (message.content === ">test") {
+    else if (message.content === ">good work" ||
+        message.content === ">good job" ||
+        message.content === ">thanks" ||
+        message.content === ">thank you" ||
+        message.content === ">thanks for the help" ||
+        message.content === ">thank you for the help" ||
+        message.content === ">good") {
         message.reply({
-            content: "Test Success!",
+            content: "Thanks! Much Appreciated! Delighted to help you out! 😁",
         });
     }
 });
