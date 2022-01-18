@@ -62,6 +62,11 @@ client.on("messageCreate", (message) => {
     message.reply({
       content: "Thanks! Much Appreciated! Delighted to help you out! 😁",
     });
+  } else if (message.content === ">G ki G") {
+    message.reply({
+      content:
+        "G ki G\n G ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\nG ki G\n hehehehehehe",
+    });
   }
 });
 
